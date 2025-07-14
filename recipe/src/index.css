@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Hide all scrollbars */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Target the scrollbar of a particular element */
+.right::-webkit-scrollbar {
+    display: none;
+}
